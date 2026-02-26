@@ -1,0 +1,28 @@
+<boat class>"style.css">style</boat>
+$sea-blue: #87bba2
+$white-sail: #c9e4ca
+body{
+    background: $sea-blue;
+}
+
+.box-drift {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    left: 0%;
+
+animation: doDrift 16s infinite;
+}
+
+.box-bob {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    background: none;
+    //border:solid 4px blue;
+    animation::after doBob 2s infinite; 
+}
+
+,box-pitch {
+    height: 100px;
+}
